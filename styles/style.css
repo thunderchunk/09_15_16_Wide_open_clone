@@ -1,0 +1,472 @@
+/* global */
+
+* {
+	box-sizing: border-box;
+}
+
+.bld{
+	font-weight: bold;
+}
+
+.flex{
+	display: flex;
+}
+
+.flex-column{
+	flex-display:column;
+}
+
+.salmon{
+	color: #ff803a;
+}
+
+.ylw{
+	color: #bdd436;
+}
+
+/* fonts */
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+
+}
+ 
+p, a {
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* rest */
+
+
+
+.m_container{
+	width:100%;
+}
+
+.header{
+	width: 100%;
+}
+
+.navbox{
+	width: 100%;
+	background: white;
+	height: 10vh;
+	position:relative;
+}
+
+a{
+	text-decoration: none;
+}
+
+li{
+	display: inline-block;
+}
+
+.HAM{
+	position: absolute;
+	right: 10px;
+	top: 12px;
+}
+
+.logo {
+	position: absolute;
+	top: 12px;
+	left: 20px;
+}
+
+.hero{
+	height: 55vh;
+	width: 100%;
+	background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg);
+	background-size: cover;
+  	background-repeat: no-repeat;
+  	background-attachment: center;
+  	text-align: center;
+  	position: relative;
+  	color: white;
+  	padding-top: 65px;
+}
+
+
+.mb_txt{
+	font-size: 50px;
+}
+
+.ld_txt {
+
+}
+
+.mb_txt{
+	letter-spacing: 1px;
+	display: block;
+	font-weight: 100;
+	margin: 10px 0 10px 0;
+}
+
+.sb_holder{
+	margin: auto;
+	text-align: center;
+	justify-content: center;
+	width: 75%;
+}
+
+.dash1{
+	width:20%;
+	height: 8px;
+	background: white;
+	margin-top: 5px;
+}
+.dash2{
+	width:20%;
+	height: 8px;
+	background: white;
+	margin-top: 5px;
+}
+
+.sb_txt{
+	font-size: 1.2em;
+	line-height: 22px;
+
+}
+
+
+
+.buttn{
+	height: 40px;
+	width: 180px;
+	border-radius: 25px;
+	background: #bdd436;
+	font-size: 15px;
+	color: white;
+	margin-top: 30px;
+	border: none;
+	font-weight: 500;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+.how_intro{
+	background: #f0f0f0;
+	padding: 40px 0 40px 0;
+	font-weight: 400;
+	line-height: 36px;
+	font-size:24px;
+	text-align: center;
+	color: #6A787C;
+}
+
+.how_works{
+	text-align: center;
+	background: #f0f0f0;
+	padding-bottom: 30px;
+}
+
+.hw_logo{
+	height: 75px;
+	width:  75px;
+	background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+	background-position: -22px -113px;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.hw_txt{
+	color: #6A787C;
+	font-size: 190%;
+	letter-spacing: 0px;
+	font-weight: lighter;
+
+}
+
+.how{
+	height:448px;
+	width:100%
+	margin-bottom: 50px;
+	text-align: center;
+	position:relative;
+}
+
+.hw_icon{
+	
+	margin: 50px auto;
+	margin-bottom: 25px;
+
+}
+
+.ic1{
+	height:160px;
+	width: 131px;
+	background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+	background-position: -311px -100px;
+}
+
+.ic2{
+	height:160px;
+	width: 74px;
+	background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+	background-position: -227px -91px;
+}
+
+.ic3{
+	height:160px;
+	width: 94px;
+	background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/xsprite_home.png.pagespeed.ic.ZkDag_2bri.webp);
+	background-position: -119px -100px;
+}
+
+
+.hw_p{
+	color: #97A2A7;
+	line-height: 25px;
+	font-size: 130%;
+	width: 80%;
+	margin: auto;
+}
+
+.hw_g{
+	margin-top: 50px;
+}
+
+.arw{
+	background: url(http://wideopentech.com/themes/wot-2013-gm/_/img/sprite_home.png);
+	background-position: -46px -292px;
+	width: 27px;
+	height: 30px;
+	margin: 20px auto;
+
+}
+
+.help{
+	text-align: center;
+	background: #f0f0f0;
+	padding-top: 50px;
+
+}
+
+.help_h_txt{
+	color: #6A787C;
+	font-size: 210%;
+	letter-spacing: 0px;
+	font-weight: bolder;
+	line-height: 50px;
+}
+
+.x_bld{
+	font-size: 170%;
+	font-weight: bolder;
+}
+
+.how_intro{
+	background: #f0f0f0;
+	padding: 40px 0 40px 0;
+	font-weight: 400;
+	line-height: 36px;
+	font-size:24px;
+	text-align: center;
+	color: #6A787C;
+}
+
+.help_h_txt{
+	color: #6A787C;
+	font-size: 210%;
+	letter-spacing: 0px;
+	font-weight: bolder;
+	line-height: 44px;
+}
+
+.help{
+	background: #f0f0f0;
+	width: 100%;
+	padding-bottom: 50px;
+}
+
+.help_p{
+	background: #f0f0f0;
+	padding: 40px 0 40px 0;
+	font-weight: 400;
+	line-height: 28px;
+	font-size:24px;
+	text-align: center;
+	color: #40666d;
+	width: 80%;
+	margin:auto;
+	font-weight: bold;
+}
+
+
+
+.helper_box{
+	margin: 0 auto 30px;
+	width: 90vw;
+	background: white;
+	padding: 30px 20px 30px 20px;
+}
+
+.helper_p{
+	font-weight: 400;
+	line-height: 32px;
+	font-size:24px;
+	text-align: center;
+	color: #6A787C;
+	margin-bottom: 10px;
+}
+
+.helper_p2{
+	color: #858585;
+	line-height: 20px;
+}
+
+.comp{
+	text-align: center;
+	padding-top: 30px;
+}
+
+.comp_box{
+	width:100%;
+	padding-top: 30px;
+
+}
+
+
+
+.company1{
+	background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/GTG-portfolio.png);
+	
+}
+
+.company2{
+	background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/CI-portfolio.png);
+	
+}
+
+.company3{
+	background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/ISI-portfolio.png);
+	
+}
+
+.company4{
+	background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/RG-portfolio.png);
+	
+}
+
+.company5{
+	background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/AM-portfolio.png);
+	
+}
+
+.company6{
+	background: url(http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/case-studies/NCMA-portfolio.png);
+	
+}
+
+.com{
+	width: 100%;
+	height: 37.8vh;
+	background-size: cover;
+}
+
+.lets_talk{
+	width: 100%;
+	background: #6A787C;
+	text-align: center;
+	padding: 30px 0 30px;
+	position: relative;
+
+}
+
+.btm_txt{
+	color: white;
+	font-size: 180%;
+}
+
+.btm_bar{
+	height:10px;
+	width: 100px;
+	background: #bdd436;
+	margin: 25px auto 25px;
+}
+
+.btm_tx_bx{
+	width: 90%;
+	margin: auto;
+}
+.btm_txt2{
+	color: white;
+
+}
+
+/*media queries*/
+
+@media(max-width: 768px){
+	.m_nav{
+		display: none;
+}
+	.logo2{
+		display: none;
+	}
+
+}
+@media(min-width: 768px){
+	.HAM{
+		display: none;
+}
+	.m_nav{
+		float: right;
+		margin:20px 40px 0 0;
+	}
+
+	li{
+		padding-left: 20px;
+	}
+
+	.logo1{
+		display: none;
+	}
+
+	.how_xpl{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.how1{
+		border-right: 1px solid #f0f0f0;
+	}
+
+	.how2{
+		border-right: 1px solid #f0f0f0;
+		border-left: 1px solid #f0f0f0;
+	}
+
+	.how3{
+		border-left: 1px solid #f0f0f0;
+	}
+
+	.comp_box{
+		display: flex;
+		flex-direction: row;
+	}
+
+
+}
+
+@media(max-width: 1224px){
+}
+
+@media(min-width: 1224px){
+	
+	.box_wrangler:
+		display: flex;
+		flex-direction: row;
+	}
+
+	.helper_box{
+		background: white;
+		padding: 30px 20px 30px 20px;
+	}
+
+
+}
